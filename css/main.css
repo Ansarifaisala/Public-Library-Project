@@ -1,0 +1,32 @@
+#categories{
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+}
+#myMap{
+    float: left;
+}
+#copyright{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#error{
+    position: fixed;
+    bottom: 0px;
+}
+#myDirections{
+    position: relative;
+    overflow: scroll;
+}
+#footer{
+text-align: center;
+padding: 5px;
+margin: 10px;
+}
+#main{
+    padding: 5px;
+    margin: 10px;
+    height: 600px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "main/main.js"> </script>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='https://www.bing.com/api/maps/mapcontrol?key=Aso4AuU44q_KcMrmrDzWUWUfMrwpGEYzbU74SP90OuALmjEQVjyVDz3kA8ECyU_v' 
+     async defer></script>
+    
+</head>
+
+<body onload='loadMapScenario();'>
+    <div id="header">
+    <h1>Bing Maps</h1>
+    </div>
+    <div id="main">
+    <div id="categories">
+        <h2>Filter Categories</h2>
+        <input type="button" id="all" value="All"><br><br>
+        <input type="button" id="elementary" value="Elementary School" ><br><br>
+        <input type="button" id="middle" value="Middle School"><br><br>
+        <input type="button" id="secondary" value="Secondary School"><br><br>
+        <input type="button" id="postSecondary" value="Post-Secondary School"><br><br>
+        <input type="button" id="alternative" value="Alternative Education"><br><br>
+        <input type="button" id="adult" value="Adult Learning"><br><br>
+        <input type="button" id="section" value="Section 23">
+
+    </div>
+        
+    <div id='myMap' style="width: 600px; height: 600px;"></div>
+    <div id="error"></div>
+    <div id="myDirections">
+        <input type="button" id="clearDirection" value="Clear Directions">
+    </div> 
+    </div>
+    <div id="footer">
+        <form id="mform">
+            Name: <input type="text" placeholder="Enter Your Name" required><br><br>
+            Address: <input type="text" placeholder="Enter Your Address" required><br><br>
+            <input type="button" value="Submit">
+            </form>
+    </div>
+    
+<div id="copyright">
+    <h5>&copy; Ansari Mohammed Faisal - #000812671</h5>
+</div>
+</body>
+
+</html>
